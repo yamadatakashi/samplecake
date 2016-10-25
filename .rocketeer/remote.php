@@ -20,7 +20,7 @@ return [
 
     // The root directory where your applications will be deployed
     // This path *needs* to start at the root, ie. start with a /
-    'root_directory' => '/home/www/',
+    'root_directory' => '/var/www',
 
     // The folder the application will be cloned in
     // Leave empty to use `application_name` as your folder name
@@ -47,10 +47,10 @@ return [
     // Enable use of sudo for some commands
     // You can specify a sudo user by doing
     // 'sudo' => 'the_user'
-    'sudo' => false,
+    'sudo' => true,
 
     // An array of commands to run under sudo
-    'sudoed' => [],
+    'sudoed' => ['chmod', 'chown'],
 
     // Permissions$
     ////////////////////////////////////////////////////////////////////

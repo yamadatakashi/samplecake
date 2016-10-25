@@ -16,7 +16,7 @@ return [
     'php'      => '',
 
     // Path to Composer
-    'composer' => '',
+    'composer' => '/usr/local/bin/composer',
 
     // Path to the Artisan CLI
     'artisan'  => 'artisan',

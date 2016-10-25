@@ -38,9 +38,9 @@ return [
     // and store them locally
     'connections'      => [
         'production' => [
-            'host'      => '',
-            'username'  => '',
-            'password'  => '',
+            'host'      => '153.126.174.104',
+            'username'  => 'takuto',
+            'password'  => 'saori0794',
             'key'       => '/Users/T-YAMADA/.ssh/id_rsa',
             'keyphrase' => '',
             'agent'     => '',
